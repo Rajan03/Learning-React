@@ -1,0 +1,113 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*************************************   LOGIN PAGE     ******************************************/
+
+/*    ***************************     container design     ***************************    */
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container::before,
+.login-container::after {
+  content: "";
+  position: absolute;
+  height: 30vh;
+  width: 35vw;
+}
+.login-container::before {
+  background-image: linear-gradient(120deg, #b4fc79 0%, #4caf50 100%);
+  bottom: 0;
+  left: 0;
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+.login-container::after {
+  background-image: linear-gradient(120deg, #b4fc79 0%, #4caf50 100%);
+  top: 0;
+  right: 0;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+/* .newp-slider__contents::before {
+  content: "";
+  background-image: linear-gradient(120deg, #b4fc79 0%, #4caf50 100%);
+  bottom: 0;
+  left: 0;
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+.newp-slider__contents::after {
+  content: "";
+  background-image: linear-gradient(120deg, #b4fc79 0%, #4caf50 100%);
+  top: 0;
+  right: 0;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+} */
+.newp-login-box {
+  width: 400px;
+  padding: 40px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background-color: #fdf9ff;
+}
+.newp-login-box h2 {
+  margin: 0 0 30px;
+  color: #222;
+  text-align: center;
+}
+.newp-login-box .newp-user-box {
+  position: relative;
+}
+.newp-login-box .newp-user-box input,
+.newp-user-box select,
+.newp-user-box textarea {
+  width: 100%;
+  padding: 10px 0;
+  color: #222;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #222;
+  outline: none;
+  background: transparent;
+}
+.newp-login-box .newp-user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  color: #222;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.newp-login-box .newp-user-box input:focus ~ label,
+.newp-login-box .newp-user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #4caf50;
+  font-size: 12px;
+}
+.newp-login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-image: linear-gradient(120deg, #b4fc79 0%, #4caf50 100%);
+  color: #222;
+  text-decoration: none;
+  margin-top: 40px;
+  letter-spacing: 3px;
+  border-radius: 50px;
+  outline: none;
+}
+.newp-login-box a:hover {
+  box-shadow: 0 0 5px #4caf50;
+  outline: none;
+}
+
+/* ******************************** Add new Project Finishes */

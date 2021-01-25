@@ -1,0 +1,79 @@
+.home-side-bar {
+  position: fixed;
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fdf9ff;
+}
+.home-logo,
+.home-navigation,
+.copyright {
+  height: 20vh;
+  width: 100%;
+  color: #302e4d;
+  text-decoration: none;
+  position: relative;
+}
+.home-logo {
+  text-align: center;
+  font-size: 30px;
+}
+.home-logo h3 {
+  display: inline-block;
+  position: relative;
+  padding: 5px 10px;
+  font-family: Rubik;
+  letter-spacing: 1px;
+}
+.home-logo h3::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 5px #4caf50 solid;
+  border-left: 5px #4caf50 solid;
+}
+.home-logo h3::after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 5px #4caf50 solid;
+  border-right: 5px #4caf50 solid;
+}
+.home-navigation ul {
+  list-style: none;
+  position: relative;
+  right: 20px;
+}
+.home-navigation li a {
+  width: 85%;
+  height: 100%;
+}
+.home-navigation li:hover {
+  background-color: #d4d4e3;
+  cursor: pointer;
+}
+.active_class {
+  color: #4caf50;
+}
+.home-navigation li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #302e4d;
+  margin: 10px;
+  padding-left: 20px;
+}
+.copyright small {
+  position: absolute;
+  bottom: 0;
+  left: 4.5vw;
+}

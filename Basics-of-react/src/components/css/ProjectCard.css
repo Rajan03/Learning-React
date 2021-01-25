@@ -1,0 +1,55 @@
+.projects {
+  /* height: 100vh; */
+  margin-left: 20vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #d4d4e3;
+}
+.card-out {
+  margin: 50px;
+}
+.card {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  box-shadow: 5px 5px 10px #666609;
+  background-color: #fff;
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 40%;
+}
+.card h1 {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #4caf50;
+  background: #fdf9ff;
+  position: relative;
+  top: -34px;
+  left: -13px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom-left-radius: 50%;
+  height: 80%;
+  cursor: pointer;
+  margin-left: 20px;
+  overflow: hidden;
+}
+.content img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.content h4 {
+  margin-top: 15px;
+}
+.progress {
+  margin-top: 20px;
+}
