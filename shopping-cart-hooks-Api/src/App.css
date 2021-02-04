@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Potta One", cursive;
+}
+
+.ProductIntro {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itemName {
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin: 3px 0px;
+}
+
+.cart {
+    box-shadow: 0px 0px 5px 1px #555;
+    padding: 20px;
+    margin: 0.7rem 0px !important;
+}
